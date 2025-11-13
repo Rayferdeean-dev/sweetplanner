@@ -7,12 +7,5 @@ export default defineConfig({
   base: '/sweetplanner-official/', // <--- WAJIB! agar path asset benar di GitHub Pages
   build: {
     outDir: 'dist',
-    cssCodeSplit: false,
-    rollupOptions: {
-      output: {
-        manualChunks: undefined,
-        inlineDynamicImports: true,
-      },
-    },
   },
 })
