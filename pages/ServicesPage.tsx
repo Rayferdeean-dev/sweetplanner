@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { services } from '../data';
@@ -98,7 +97,7 @@ const ServicesPage: React.FC = () => {
       {/* Hero Section */}
       <section
         className="bg-cover bg-center text-white py-24 md:py-36 relative"
-        style={{ backgroundImage: `url('/sweetplanner-official/images/hero/services-bg.jpg')` }}
+        style={{ backgroundImage: `url('/sweetplanner/images/hero/services-bg.jpg')` }}
       >
         <div className="absolute inset-0 bg-slate-800/60"></div>
         <div className="max-w-screen-xl mx-auto px-4 text-center relative z-10">

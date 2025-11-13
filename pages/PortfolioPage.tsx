@@ -1,4 +1,3 @@
-
 import React, { useState, useEffect, useRef } from 'react';
 import { portfolioItems } from '../data';
 import { PortfolioItem } from '../types';
@@ -40,7 +39,7 @@ const PortfolioPage: React.FC = () => {
     <>
       <section
         className="bg-cover bg-center text-white py-20 relative"
-        style={{ backgroundImage: `url('/sweetplanner-official/images/hero/portfolio-hero-bg.jpg')` }}
+        style={{ backgroundImage: `url('/sweetplanner/images/hero/portfolio-hero-bg.jpg')` }}
       >
         <div className="absolute inset-0 bg-slate-800/60"></div>
         <div className="max-w-screen-xl mx-auto px-4 text-center relative z-10">
@@ -58,9 +57,9 @@ const PortfolioPage: React.FC = () => {
               <video
                 className="w-full rounded-lg shadow-2xl"
                 controls
-                poster="/sweetplanner-official/images/portfolio/digital-horizons.jpg"
+                poster="/sweetplanner/images/portfolio/digital-horizons.jpg"
               >
-                <source src="/sweetplanner-official/videos/portfolio-video.mp4" type="video/mp4" />
+                <source src="/sweetplanner/videos/portfolio-video.mp4" type="video/mp4" />
                 Your browser does not support the video tag.
               </video>
               {/* Logo kecil di sudut kanan atas */}

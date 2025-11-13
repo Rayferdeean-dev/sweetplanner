@@ -7,7 +7,7 @@ const AboutPage: React.FC = () => {
     <>
       <section
         className="bg-cover bg-center text-white py-20 relative"
-        style={{ backgroundImage: `url('/sweetplanner-official/images/hero/about-hero-bg.jpg')` }}
+        style={{ backgroundImage: `url('/sweetplanner/images/hero/about-hero-bg.jpg')` }}
       >
         <div className="absolute inset-0 bg-slate-800/60"></div>
         <div className="max-w-screen-xl mx-auto px-4 text-center relative z-10">
@@ -26,16 +26,16 @@ const AboutPage: React.FC = () => {
               Sweet Planner lahir dari keyakinan bahwa Indonesia Timur, khususnya Makassar, memiliki potensi luar biasa sebagai destinasi MICE kelas dunia. Kami melihat kebutuhan akan penyelenggara acara yang tidak hanya profesional dan efisien, tetapi juga memahami dan mampu mengintegrasikan kekayaan budaya lokal ke dalam setiap acara.
             </p>
             <p className="text-slate-600 leading-relaxed">
-              Misi kami adalah menjadi "Fasilitator yang Cerdas & Peduli", menggabungkan perencanaan berbasis data dengan layanan personal yang hangat untuk memberikan hasil yang terukur dan pengalaman yang berkesan.
+              Misi kami adalah menjadi "Fasilitator yang Cerdas & Pedra", menggabungkan perencanaan berbasis data dengan layanan personal yang hangat untuk memberikan hasil yang terukur dan pengalaman yang berkesan.
             </p>
           </div>
           <div className="relative">
             <video
               className="w-full rounded-lg shadow-xl"
               controls
-              poster="/sweetplanner-official/images/hero/about-team.jpg"
+              poster="/sweetplanner/images/hero/about-team.jpg"
             >
-              <source src="/sweetplanner-official/videos/about-video.mp4" type="video/mp4" />
+              <source src="/sweetplanner/videos/about-video.mp4" type="video/mp4" />
               Your browser does not support the video tag.
             </video>
             {/* Overlay untuk kontras lebih rendah dan warna lebih gelap */}

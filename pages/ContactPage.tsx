@@ -52,7 +52,7 @@ ${formData.message}`;
     <>
       <section
         className="bg-cover bg-center text-white py-20 relative"
-        style={{ backgroundImage: `url('/sweetplanner-official/images/hero/contact-bg.jpg')` }}
+        style={{ backgroundImage: `url('/sweetplanner/images/hero/contact-bg.jpg')` }}
       >
         <div className="absolute inset-0 bg-slate-800/60"></div>
         <div className="max-w-screen-xl mx-auto px-4 text-center relative z-10">

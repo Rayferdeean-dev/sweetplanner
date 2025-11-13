@@ -16,18 +16,18 @@ const HomePage: React.FC = () => {
           loop
           playsInline
         >
-          <source src="/sweetplanner-official/videos/hero-video.mp4" type="video/mp4" />
+          <source src="/sweetplanner/videos/hero-video.mp4" type="video/mp4" />
           Your browser does not support the video tag.
         </video>
         {/* Fallback background image */}
         <div
           className="absolute inset-0 bg-cover bg-center"
-          style={{ backgroundImage: `url('/sweetplanner-official/images/hero/hero-bg.jpg')` }}
+          style={{ backgroundImage: `url('/sweetplanner/images/hero/hero-bg.jpg')` }}
         ></div>
         <div className="absolute inset-0 bg-slate-900/60"></div>
         <div className="max-w-screen-xl mx-auto px-4 text-center relative z-10">
           <h1 className="text-4xl md:text-6xl font-bold mb-4 leading-tight">
-            <span className="text-pink-400">Acara Sempurna</span>, <span className="text-white">Pengalaman Tak Terlupakan</span>
+            <span className="text-pink-400">acara Sempurna</span>, <span className="text-white">Pengalaman Tak Terlupakan</span>
           </h1>
           <p className="text-lg md:text-xl text-slate-200 mb-8 max-w-3xl mx-auto">
             Mitra terpercaya Anda untuk Rapat, Insentif, Konferensi, dan Pameran di jantung Indonesia Timur.
